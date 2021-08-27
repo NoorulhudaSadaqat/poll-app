@@ -1,26 +1,28 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const listOfPolls = [
-  {
-    id: 0,
-    question: ' ',
-    options: [],
-    status: ' ',
-    selectedOption: 0,
-    noOfOtions: 2,
-  },
-]
+export const initialState = {
+  pollsArray: [],
+}
 
 const PollSlice = createSlice({
   name: 'polls',
-  initialState: {
-    value: listOfPolls,
-  },
+  initialState,
   reducers: {
     addPoll: (state, action) => {
-      state.value.push(state)
+      state.pollsArray.push(action.payload)
+      console.log('after added', state.pollsArray)
+    },
+    deletePoll: (state, action) => {
+      const index = action.payload
+      state.pollsArray.splice(index, 1)
+      console.log('Array after deleting : ' + state.pollsArray)
+    },
+    vote: (state, action) => {
+      const { index, option } = action.payload
+      state.pollsArray[index].options[option].noOfVotes += 1
     },
   },
 })
+
+export const { addPoll, deletePoll, vote } = PollSlice.actions
 export default PollSlice
-export const { addPoll } = PollSlice.actions

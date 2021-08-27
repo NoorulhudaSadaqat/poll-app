@@ -9,8 +9,7 @@ const AddOption = (props) => {
       color="primary"
       size="small"
       onClick={() => {
-        props.updateNoOfOptions(props.noOfOptions + 1)
-        console.log('No of Options : ' + (props.noOfOptions + 1))
+        props.updateNoOfOptions(props.option)
       }}
     >
       Add Option
