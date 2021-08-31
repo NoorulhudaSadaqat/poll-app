@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/NoorulhudaSadaqat/poll-app/static/css/main.88f5ac70.chunk.css",
-    "main.js": "/NoorulhudaSadaqat/poll-app/static/js/main.8058f4e6.chunk.js",
-    "main.js.map": "/NoorulhudaSadaqat/poll-app/static/js/main.8058f4e6.chunk.js.map",
-    "runtime-main.js": "/NoorulhudaSadaqat/poll-app/static/js/runtime-main.246209c6.js",
-    "runtime-main.js.map": "/NoorulhudaSadaqat/poll-app/static/js/runtime-main.246209c6.js.map",
-    "static/js/2.2eab1175.chunk.js": "/NoorulhudaSadaqat/poll-app/static/js/2.2eab1175.chunk.js",
-    "static/js/2.2eab1175.chunk.js.map": "/NoorulhudaSadaqat/poll-app/static/js/2.2eab1175.chunk.js.map",
-    "static/js/3.4a0b55a4.chunk.js": "/NoorulhudaSadaqat/poll-app/static/js/3.4a0b55a4.chunk.js",
-    "static/js/3.4a0b55a4.chunk.js.map": "/NoorulhudaSadaqat/poll-app/static/js/3.4a0b55a4.chunk.js.map",
-    "index.html": "/NoorulhudaSadaqat/poll-app/index.html",
-    "static/css/main.88f5ac70.chunk.css.map": "/NoorulhudaSadaqat/poll-app/static/css/main.88f5ac70.chunk.css.map",
-    "static/js/2.2eab1175.chunk.js.LICENSE.txt": "/NoorulhudaSadaqat/poll-app/static/js/2.2eab1175.chunk.js.LICENSE.txt",
-    "static/media/polling-hero.77bbdf3a.jpeg": "/NoorulhudaSadaqat/poll-app/static/media/polling-hero.77bbdf3a.jpeg"
+    "main.css": "/poll-app/static/css/main.88f5ac70.chunk.css",
+    "main.js": "/poll-app/static/js/main.8058f4e6.chunk.js",
+    "main.js.map": "/poll-app/static/js/main.8058f4e6.chunk.js.map",
+    "runtime-main.js": "/poll-app/static/js/runtime-main.31d36455.js",
+    "runtime-main.js.map": "/poll-app/static/js/runtime-main.31d36455.js.map",
+    "static/js/2.2eab1175.chunk.js": "/poll-app/static/js/2.2eab1175.chunk.js",
+    "static/js/2.2eab1175.chunk.js.map": "/poll-app/static/js/2.2eab1175.chunk.js.map",
+    "static/js/3.4a0b55a4.chunk.js": "/poll-app/static/js/3.4a0b55a4.chunk.js",
+    "static/js/3.4a0b55a4.chunk.js.map": "/poll-app/static/js/3.4a0b55a4.chunk.js.map",
+    "index.html": "/poll-app/index.html",
+    "static/css/main.88f5ac70.chunk.css.map": "/poll-app/static/css/main.88f5ac70.chunk.css.map",
+    "static/js/2.2eab1175.chunk.js.LICENSE.txt": "/poll-app/static/js/2.2eab1175.chunk.js.LICENSE.txt",
+    "static/media/polling-hero.77bbdf3a.jpeg": "/poll-app/static/media/polling-hero.77bbdf3a.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.246209c6.js",
+    "static/js/runtime-main.31d36455.js",
     "static/js/2.2eab1175.chunk.js",
     "static/css/main.88f5ac70.chunk.css",
     "static/js/main.8058f4e6.chunk.js"
